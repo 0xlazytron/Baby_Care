@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredientbg"
+    tools:context=".splash"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/refugee"
+            android:layout_width="140dp"
+            android:layout_gravity="center"
+            android:layout_height="160dp">
+
+        </ImageView>
+
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="60dp"
+    android:layout_centerHorizontal="true"
+    android:gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:backgroundTint="@color/black"
+        android:text="BABY CARE"
+        android:shadowColor="@color/TransparentGrey"
+        android:shadowDx="2"
+        android:shadowDy="3"
+        android:shadowRadius="12"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="0dp"
+        android:textSize="26dp">
+
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:shadowColor="@color/TransparentGrey"
+        android:shadowDx="2"
+        android:shadowDy="3"
+        android:shadowRadius="12"
+        android:backgroundTint="@color/black"
+        android:text="Little Things Matter"
+        android:textColor="#FFFFFF"
+        android:textSize="16dp">
+
+    </TextView>
+</LinearLayout>
+</RelativeLayout>

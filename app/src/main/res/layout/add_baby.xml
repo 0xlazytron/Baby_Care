@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gredientbg"
+    android:layout_height="match_parent"
+    tools:context=".addBaby">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Add a Baby"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp">
+
+    </TextView>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/pic"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:onClick="imagePick"
+        android:src="@drawable/ic_avt">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+
+        android:fontFamily="@font/poppins"
+        android:hint="Baby's Name *"
+        android:padding="7dp"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        >
+
+    </EditText>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:inputType="number"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:fontFamily="@font/poppins"
+            android:hint="Baby's Weight *"
+            android:padding="7dp">
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/poppins"
+            android:textSize="18dp"
+            android:text="(KGS)"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="number"
+            android:fontFamily="@font/poppins"
+            android:hint="Baby's Height *"
+            android:padding="7dp"
+            >
+
+        </EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_marginTop="14dp"
+            android:fontFamily="@font/poppins"
+            android:textSize="18dp"
+            android:text="(FEET)"
+            android:layout_height="wrap_content">
+
+        </TextView>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/bday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/poppins"
+        android:hint="Baby's Birthday *"
+        android:padding="7dp"
+        android:inputType="number"
+        android:textColorHint="@color/white"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white">
+
+    </EditText>
+
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="5dp"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content">
+<RadioGroup
+    android:id="@+id/gender"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <RadioButton
+
+        android:id="@+id/male"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="60dp"
+        android:buttonTint="#ffffff"
+        android:checked="true"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Male"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <RadioButton
+        android:id="@+id/female"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="Female"
+        android:checked="false"
+        android:buttonTint="#ffffff"
+        android:textColor="#FFFFFF" />
+</RadioGroup>
+
+</LinearLayout>
+    <Button
+        android:id="@+id/addbby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/dark"
+        android:fontFamily="@font/poppins_medium"
+        android:text="ADD"
+        android:textColor="#ffffff"
+        android:textSize="22dp">
+
+    </Button>
+</LinearLayout>
+</RelativeLayout>

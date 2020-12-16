@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gredientbg"
+    tools:context=".Home"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/refugee"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="100dp">
+
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:text="BABY  CARE"
+            android:shadowColor="@color/TransparentGrey"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowRadius="12"
+            android:textColor="#FFFFFF"
+            android:textSize="26dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:text="Manage Actions For Your Baby!"
+            android:shadowColor="@color/TransparentGrey"
+            android:shadowDx="2"
+            android:shadowDy="3"
+            android:shadowRadius="12"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp">
+        </TextView>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addBabies"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#FF9B6FF1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="2"
+                        android:shadowDy="3"
+                        android:shadowRadius="16"
+                        android:background="@drawable/ic_ba" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Baby"
+                        android:shadowColor="@color/fab_pressed"
+                        android:shadowDx="2"
+                        android:shadowDy="3"
+                        android:shadowRadius="12"
+                        android:textColor="@color/white"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/addReminders"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#FF9B6FF1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/ic_clock" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Reminder"
+                        android:textColor="#FFFFFF"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="2"
+                        android:shadowDy="3"
+                        android:shadowRadius="12"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/diet"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#FF9B6FF1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/ic_bottle" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Planner"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="2"
+                        android:shadowDy="3"
+                        android:shadowRadius="12"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/babyLytics"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#FF9B6FF1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/ic_analytics" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Analytics"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="2"
+                        android:shadowDy="3"
+                        android:shadowRadius="12"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/motherGuide"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#FF9B6FF1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:background="@drawable/ic_mot" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Guide"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="2"
+                        android:shadowDy="3"
+                        android:shadowRadius="12"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/devs"
+                android:layout_width="98dp"
+                android:layout_height="98dp"
+                android:layout_margin="5dp"
+                app:cardBackgroundColor="#FF9B6FF1"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_marginLeft="4dp"
+                        android:background="@drawable/ic_hacker" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:fontFamily="@font/poppins"
+                        android:text="Developer"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:shadowColor="@color/TransparentGrey"
+                        android:shadowDx="2"
+                        android:shadowDy="3"
+                        android:shadowRadius="12"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="22dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="Application Version : 1.0"
+        android:shadowColor="@color/TransparentGrey"
+        android:shadowDx="2"
+        android:shadowDy="3"
+        android:shadowRadius="12"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp">
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="TargetSdk Version : 29"
+        android:shadowColor="@color/TransparentGrey"
+        android:shadowDx="2"
+        android:shadowDy="3"
+        android:shadowRadius="12"
+        android:textColor="#FFFFFF"
+        android:textSize="8dp">
+    </TextView>
+</RelativeLayout>
