@@ -4,24 +4,7 @@
             "outputFile": "E:\\Development\\Baby\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw\\values-sw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c292180846fe538ac04adec169e4a10c\\jetified-navigation-ui-2.0.0\\res\\values-sw\\values-sw.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,160",
-                        "endColumns": "104,117",
-                        "endOffsets": "155,273"
-                    },
-                    "to": {
-                        "startLines": "40,41",
-                        "startColumns": "4,4",
-                        "startOffsets": "3937,4042",
-                        "endColumns": "104,117",
-                        "endOffsets": "4037,4155"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\ba89ae4fcf6e2c1abf6bc2023c9a878c\\jetified-materialdatetimepicker-1.2.1\\res\\values-sw\\values.xml",
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\613df6a2cabef3a0ada7ee818752b921\\jetified-materialdatetimepicker-1.2.1\\res\\values-sw\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -35,6 +18,23 @@
                         "startOffsets": "2801,2910,3024,3109,3226,3350,3472,3567,3654,3746,3834",
                         "endColumns": "108,113,84,116,123,121,94,86,91,87,102",
                         "endOffsets": "2905,3019,3104,3221,3345,3467,3562,3649,3741,3829,3932"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\3354527b121d837c9807a891ff82bdc6\\jetified-navigation-ui-2.0.0\\res\\values-sw\\values-sw.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,160",
+                        "endColumns": "104,117",
+                        "endOffsets": "155,273"
+                    },
+                    "to": {
+                        "startLines": "40,41",
+                        "startColumns": "4,4",
+                        "startOffsets": "3937,4042",
+                        "endColumns": "104,117",
+                        "endOffsets": "4037,4155"
                     }
                 },
                 {

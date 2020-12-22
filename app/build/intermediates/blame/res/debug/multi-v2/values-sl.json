@@ -4,23 +4,6 @@
             "outputFile": "E:\\Development\\Baby\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sl\\values-sl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c292180846fe538ac04adec169e4a10c\\jetified-navigation-ui-2.0.0\\res\\values-sl\\values-sl.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,163",
-                        "endColumns": "107,120",
-                        "endOffsets": "158,279"
-                    },
-                    "to": {
-                        "startLines": "40,41",
-                        "startColumns": "4,4",
-                        "startOffsets": "3966,4074",
-                        "endColumns": "107,120",
-                        "endOffsets": "4069,4190"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\ba89ae4fcf6e2c1abf6bc2023c9a878c\\jetified-materialdatetimepicker-1.2.1\\res\\values-sl\\values.xml",
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\613df6a2cabef3a0ada7ee818752b921\\jetified-materialdatetimepicker-1.2.1\\res\\values-sl\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "105,212,319,427,514,617,736,821,905,997,1091,1187,1281,1377,1471,1567,1667,1759,1851,1935,2043,2152,2252,2365,2472,2576,2756,4195",
                         "endColumns": "106,106,107,86,102,118,84,83,91,93,95,93,95,93,95,99,91,91,83,107,108,99,112,106,103,179,96,82",
                         "endOffsets": "207,314,422,509,612,731,816,900,992,1086,1182,1276,1372,1466,1562,1662,1754,1846,1930,2038,2147,2247,2360,2467,2571,2751,2848,4273"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\3354527b121d837c9807a891ff82bdc6\\jetified-navigation-ui-2.0.0\\res\\values-sl\\values-sl.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,163",
+                        "endColumns": "107,120",
+                        "endOffsets": "158,279"
+                    },
+                    "to": {
+                        "startLines": "40,41",
+                        "startColumns": "4,4",
+                        "startOffsets": "3966,4074",
+                        "endColumns": "107,120",
+                        "endOffsets": "4069,4190"
                     }
                 }
             ]

@@ -32,7 +32,7 @@
                 android:id="@+id/last"
                 android:layout_width="wrap_content"
                 android:orientation="vertical"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="2dp"
                 android:layout_marginLeft="20dp"
                 android:layout_height="wrap_content">
 
@@ -45,7 +45,7 @@
                     android:fontFamily="@font/poppins"
                     android:textColor="#ffffff"
                     android:layout_marginTop="2dp"
-                    android:textSize="3dp"
+                    android:textSize="0dp"
                     android:text="Reminder id" />
 
                 <TextView
@@ -68,31 +68,31 @@
                     android:fontFamily="@font/poppins"
                     android:text="Time"
                     android:textSize="12sp" />
+                <TextView
+                    android:id="@+id/reminder_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFFFFF"
+                    android:layout_marginLeft="10dp"
+                    android:textFontWeight="1"
+                    android:fontFamily="@font/poppins"
+                    android:text="Reminder date"
+                    android:textSize="12sp" />
             </LinearLayout>
         </LinearLayout>
       <LinearLayout
           android:layout_width="wrap_content"
           android:orientation="horizontal"
-          android:layout_marginTop="6dp"
+          android:layout_gravity="center|end"
           android:layout_height="wrap_content">
           <ImageView
               android:id="@+id/delete_reminder"
-              android:layout_height="40dp"
-              android:layout_width="30dp"
+              android:layout_height="60dp"
+              android:layout_width="50dp"
+              android:layout_marginRight="20dp"
               android:src="@drawable/ic_baseline_delete_24"
-              android:layout_marginLeft="270dp"
-              android:layout_marginTop="8dp"
+              android:gravity="center|end"
               />
-          <ImageView
-              android:id="@+id/edit_reminder"
-              android:layout_height="40dp"
-              android:layout_width="30dp"
-              android:layout_marginLeft="8dp"
-              android:src="@drawable/ic__edit_24"
-              android:layout_marginTop="8dp"
-              >
-
-          </ImageView>
       </LinearLayout>
 
     </androidx.cardview.widget.CardView>

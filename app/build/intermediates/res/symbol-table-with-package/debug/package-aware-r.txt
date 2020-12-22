@@ -1230,25 +1230,31 @@ drawable abc_vector_test
 drawable add
 drawable addbaby
 drawable addwhite
+drawable arr
 drawable avd_hide_password
 drawable avd_show_password
+drawable chevron
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable down
 drawable fab_bg_mini
 drawable fab_bg_normal
 drawable gredientbg
+drawable ic__edit_24
 drawable ic_access_time_grey600_24dp
 drawable ic_add
 drawable ic_add_alert_black_24dp
 drawable ic_airplanemode_inactive_black_24dp
 drawable ic_alarm_on_white_24dp
 drawable ic_analytics
+drawable ic_arrow_24
 drawable ic_avt
 drawable ic_ba
+drawable ic_baby
 drawable ic_baby_boy
 drawable ic_baseline_delete_24
 drawable ic_bottle
@@ -1293,6 +1299,7 @@ drawable ic_repeat
 drawable ic_sad
 drawable ic_search
 drawable ic_settings
+drawable ic_stopwatch
 drawable ic_subject
 drawable ic_subject_grey600_24dp
 drawable ic_sync
@@ -1332,6 +1339,7 @@ drawable refugee
 drawable side_nav_bar
 drawable splash
 drawable splash1
+drawable style_spinner
 drawable styleabletoast_shape
 drawable toolbar_dropshadow
 drawable tooltip_frame_dark
@@ -1380,6 +1388,7 @@ id add_baby
 id add_new_reminder
 id add_reminder_layout_top
 id addbby
+id alarm_active
 id alertTitle
 id alignBounds
 id alignMargins
@@ -1488,6 +1497,7 @@ id italic
 id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
+id last
 id left
 id line1
 id line3
@@ -1529,11 +1539,14 @@ id pin
 id progress_circular
 id progress_horizontal
 id radio
+id rem_baby
 id rem_date
 id rem_name
 id rem_time
+id rem_type
+id reminder_date
+id reminder_id
 id reminder_list
-id reminder_name
 id reminder_time
 id reminder_title
 id repeat
@@ -1613,7 +1626,6 @@ id textinput_error
 id textinput_helper_text
 id textview
 id time
-id timeNow
 id time_display
 id time_display_background
 id time_icon
@@ -1753,6 +1765,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout splash
+layout style_spinner
 layout styleable_layout
 layout support_simple_spinner_dropdown_item
 layout update_baby
@@ -2400,6 +2413,7 @@ style mdtp_day_of_week_label_condensed
 style mdtp_done_button_light
 style mdtp_time_label
 style mdtp_time_label_thin
+style spinner_style
 style succes
 style warning
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle

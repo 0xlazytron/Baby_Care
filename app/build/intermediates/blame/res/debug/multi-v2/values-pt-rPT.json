@@ -4,23 +4,6 @@
             "outputFile": "E:\\Development\\Baby\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c292180846fe538ac04adec169e4a10c\\jetified-navigation-ui-2.0.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,167",
-                        "endColumns": "111,119",
-                        "endOffsets": "162,282"
-                    },
-                    "to": {
-                        "startLines": "40,41",
-                        "startColumns": "4,4",
-                        "startOffsets": "4024,4136",
-                        "endColumns": "111,119",
-                        "endOffsets": "4131,4251"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\values-pt-rPT\\values-pt-rPT.xml",
                     "from": {
                         "startLines": "2",
@@ -38,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\ba89ae4fcf6e2c1abf6bc2023c9a878c\\jetified-materialdatetimepicker-1.2.1\\res\\values-pt-rPT\\values.xml",
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\613df6a2cabef3a0ada7ee818752b921\\jetified-materialdatetimepicker-1.2.1\\res\\values-pt-rPT\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -52,6 +35,23 @@
                         "startOffsets": "2864,2972,3086,3170,3296,3418,3548,3643,3736,3833,3923",
                         "endColumns": "107,113,83,125,121,129,94,92,96,89,100",
                         "endOffsets": "2967,3081,3165,3291,3413,3543,3638,3731,3828,3918,4019"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\3354527b121d837c9807a891ff82bdc6\\jetified-navigation-ui-2.0.0\\res\\values-pt-rPT\\values-pt-rPT.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,167",
+                        "endColumns": "111,119",
+                        "endOffsets": "162,282"
+                    },
+                    "to": {
+                        "startLines": "40,41",
+                        "startColumns": "4,4",
+                        "startOffsets": "4024,4136",
+                        "endColumns": "111,119",
+                        "endOffsets": "4131,4251"
                     }
                 },
                 {

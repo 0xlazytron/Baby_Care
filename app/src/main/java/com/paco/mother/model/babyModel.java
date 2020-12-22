@@ -7,7 +7,13 @@ public class babyModel {
     Integer id;
     String name, height,weight,birthDay,gender,imageName;
     Bitmap image;
-    public babyModel(int id ,String name, String birthDay,Bitmap image,String height, String weight,String gender) {
+
+    public babyModel(Integer id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
+    public babyModel(int id , String name, String birthDay, Bitmap image, String height, String weight, String gender) {
         this.id = id;
         this.name = name;
         this.birthDay = birthDay;

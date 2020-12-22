@@ -1,26 +1,26 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
-MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\c292180846fe538ac04adec169e4a10c\jetified-navigation-ui-2.0.0\AndroidManifest.xml:17:1-22:12
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
+MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\3354527b121d837c9807a891ff82bdc6\jetified-navigation-ui-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:17:1-24:12
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\9c1151acb4ac483427cc1dbbec42ae74\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
-MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:2:1-28:12
-MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\8dd022c58c6cbea7328dd223836dadc1\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\d6b382d1e1280c9aba6a2dc97dd1a04e\jetified-library-2.1.4\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:2:1-28:12
+MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\af04994d26ab7929e7fc11f829b09948\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\04005ad7c478d573db38b1bee16fcc6a\navigation-fragment-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\05168a99ce6bc986f8dc92d58ead19f3\lifecycle-extensions-2.0.0\AndroidManifest.xml:17:1-25:12
-MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\1791bedf088ae3065ed334f2e377545d\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:2:1-14:12
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\e84170b53028d8d2d4d3c6743836b248\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ca3ed72cfdc57fc3a102e462c0327875\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\0f4505103b69e512c07e6428baa15090\gridlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\f64c8351ef0c9a7a800019d28185706c\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ba89ae4fcf6e2c1abf6bc2023c9a878c\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:17:1-30:12
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\613df6a2cabef3a0ada7ee818752b921\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\47fc3950c814b04977735368112c37af\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\b0972071a30160448ccdb7b1c8372af4\circleimageview-3.0.1\AndroidManifest.xml:2:1-11:12
-MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\6e75d41292ce7017856f2be7698f6ea3\jetified-styleabletoast-2.0.1\AndroidManifest.xml:2:1-13:12
+MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ec00e7877c342453f0fca5be79a93989\jetified-styleabletoast-2.0.1\AndroidManifest.xml:2:1-13:12
 MERGED from [com.wrapp.floatlabelededittext:library:0.0.6] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2d6ed1a3eeb3eb3f3ac983d5aff19db2\library-0.0.6\AndroidManifest.xml:2:1-13:12
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\9d25aa7049e7f5e303a113e60638567d\com.amulyakhare.textdrawable-1.0.1\AndroidManifest.xml:2:1-14:12
 MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\61015dda0f41d63be36764ccaeacf3e4\fragment-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -54,53 +54,55 @@ MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Paco\.gradle\cac
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\8cf450d11667f9427b289f08c2115f5c\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\d31a9dbc3f8404c541e987748c42963b\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\699bc310780b1730bce8fe271ffeca8b\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
-INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
+INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:3:5-30
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:4:5-30
 		INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-37:12
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:5:5-81
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:6:5-66
-MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ba89ae4fcf6e2c1abf6bc2023c9a878c\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:26:5-66
-MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ba89ae4fcf6e2c1abf6bc2023c9a878c\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:26:5-66
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:7:5-66
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\613df6a2cabef3a0ada7ee818752b921\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:26:5-66
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\613df6a2cabef3a0ada7ee818752b921\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:26:5-66
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:6:22-63
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:7:22-63
 application
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:8:5-35:19
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:9:5-39:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:22:5-20
-MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:13:5-26:19
-MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:13:5-26:19
-MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\8dd022c58c6cbea7328dd223836dadc1\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:9:5-20
-MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\8dd022c58c6cbea7328dd223836dadc1\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:13:5-26:19
+MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:13:5-26:19
+MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\af04994d26ab7929e7fc11f829b09948\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\af04994d26ab7929e7fc11f829b09948\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\05168a99ce6bc986f8dc92d58ead19f3\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\05168a99ce6bc986f8dc92d58ead19f3\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
-MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\1791bedf088ae3065ed334f2e377545d\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:12:5-20
-MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\1791bedf088ae3065ed334f2e377545d\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:12:5-20
-MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ba89ae4fcf6e2c1abf6bc2023c9a878c\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:28:5-20
-MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ba89ae4fcf6e2c1abf6bc2023c9a878c\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:28:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\e84170b53028d8d2d4d3c6743836b248\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:12:5-20
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\e84170b53028d8d2d4d3c6743836b248\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:12:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\613df6a2cabef3a0ada7ee818752b921\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:28:5-20
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\613df6a2cabef3a0ada7ee818752b921\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:28:5-20
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\b0972071a30160448ccdb7b1c8372af4\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\b0972071a30160448ccdb7b1c8372af4\circleimageview-3.0.1\AndroidManifest.xml:9:5-20
-MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\6e75d41292ce7017856f2be7698f6ea3\jetified-styleabletoast-2.0.1\AndroidManifest.xml:11:5-47
-MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\6e75d41292ce7017856f2be7698f6ea3\jetified-styleabletoast-2.0.1\AndroidManifest.xml:11:5-47
+MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ec00e7877c342453f0fca5be79a93989\jetified-styleabletoast-2.0.1\AndroidManifest.xml:11:5-47
+MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ec00e7877c342453f0fca5be79a93989\jetified-styleabletoast-2.0.1\AndroidManifest.xml:11:5-47
 MERGED from [com.wrapp.floatlabelededittext:library:0.0.6] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2d6ed1a3eeb3eb3f3ac983d5aff19db2\library-0.0.6\AndroidManifest.xml:11:5-20
 MERGED from [com.wrapp.floatlabelededittext:library:0.0.6] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2d6ed1a3eeb3eb3f3ac983d5aff19db2\library-0.0.6\AndroidManifest.xml:11:5-20
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\9d25aa7049e7f5e303a113e60638567d\com.amulyakhare.textdrawable-1.0.1\AndroidManifest.xml:12:5-20
@@ -114,87 +116,87 @@ MERGED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Paco\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\c0a39027978b83a483a047f5c31d0c4e\core-1.0.1\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:12:9-41
 	android:roundIcon
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:13:9-54
 	android:icon
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:15:9-40
 activity#com.paco.mother.updateBaby
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:15:9-57
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:16:9-57
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:15:19-45
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:16:19-45
 activity#com.paco.mother.NewReminder
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:16:9-49
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:17:9-49
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:16:19-46
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:17:19-46
 activity#com.paco.mother.Guide
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:17:9-43
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:18:9-43
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:17:19-40
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:18:19-40
 activity#com.paco.mother.babyLytic
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:18:9-47
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:19:9-47
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:18:19-44
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:19:19-44
 activity#com.paco.mother.Reminder
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:19:9-46
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:20:9-46
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:19:19-43
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:20:19-43
 activity#com.paco.mother.Home
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:20:9-42
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:21:9-42
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:20:19-39
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:21:19-39
 activity#com.paco.mother.addBaby
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:21:9-45
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:22:9-45
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:21:19-42
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:22:19-42
 activity#com.paco.mother.manageBaby
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:22:9-48
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:23:9-48
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:22:19-45
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:23:19-45
 activity#com.paco.mother.splash
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:23:9-29:20
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:24:9-30:20
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:23:19-41
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:24:19-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:25:13-29:29
 action#android.intent.action.MAIN
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:26:17-69
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:26:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:28:17-77
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:28:27-74
 receiver#com.paco.mother.Reciever.ReminderReciever
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:30:9-63
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:32:8-34:19
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:30:19-60
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:32:18-59
 meta-data#preloaded_fonts
-ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:32:9-34:57
+ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:36:9-38:57
 	android:resource
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:34:13-54
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:38:13-54
 	android:name
-		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:33:13-43
+		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml:37:13-43
 uses-sdk
 INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
 INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
-MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\c292180846fe538ac04adec169e4a10c\jetified-navigation-ui-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\c292180846fe538ac04adec169e4a10c\jetified-navigation-ui-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\3354527b121d837c9807a891ff82bdc6\jetified-navigation-ui-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\3354527b121d837c9807a891ff82bdc6\jetified-navigation-ui-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2946ca0ea6c89dab7d7d9fbc18e54292\material-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\9c1151acb4ac483427cc1dbbec42ae74\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
-MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\9c1151acb4ac483427cc1dbbec42ae74\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\8dd022c58c6cbea7328dd223836dadc1\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\8dd022c58c6cbea7328dd223836dadc1\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\d6b382d1e1280c9aba6a2dc97dd1a04e\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.rengwuxian.materialedittext:library:2.1.4] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\d6b382d1e1280c9aba6a2dc97dd1a04e\jetified-library-2.1.4\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\af04994d26ab7929e7fc11f829b09948\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.bignerdranch.android:recyclerview-multiselect:0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\af04994d26ab7929e7fc11f829b09948\jetified-recyclerview-multiselect-0.2\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\906744c4ddcbc384c5a8d2d69414f8fa\appcompat-1.0.2\AndroidManifest.xml:20:5-44
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\508ac768b50158a079142e4dc4915061\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
@@ -203,22 +205,22 @@ MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Paco\.gradl
 MERGED from [androidx.navigation:navigation-fragment:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\04005ad7c478d573db38b1bee16fcc6a\navigation-fragment-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\05168a99ce6bc986f8dc92d58ead19f3\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\05168a99ce6bc986f8dc92d58ead19f3\lifecycle-extensions-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\1791bedf088ae3065ed334f2e377545d\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:8:5-10:41
-MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\1791bedf088ae3065ed334f2e377545d\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\e84170b53028d8d2d4d3c6743836b248\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:8:5-10:41
+MERGED from [com.getbase:floatingactionbutton:1.10.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\e84170b53028d8d2d4d3c6743836b248\jetified-floatingactionbutton-1.10.1\AndroidManifest.xml:8:5-10:41
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ca3ed72cfdc57fc3a102e462c0327875\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ca3ed72cfdc57fc3a102e462c0327875\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\0f4505103b69e512c07e6428baa15090\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.gridlayout:gridlayout:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\0f4505103b69e512c07e6428baa15090\gridlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\f64c8351ef0c9a7a800019d28185706c\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\f64c8351ef0c9a7a800019d28185706c\cardview-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ba89ae4fcf6e2c1abf6bc2023c9a878c\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:22:5-24:41
-MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ba89ae4fcf6e2c1abf6bc2023c9a878c\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\613df6a2cabef3a0ada7ee818752b921\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:22:5-24:41
+MERGED from [com.wdullaer:materialdatetimepicker:1.2.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\613df6a2cabef3a0ada7ee818752b921\jetified-materialdatetimepicker-1.2.1\AndroidManifest.xml:22:5-24:41
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\47fc3950c814b04977735368112c37af\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\47fc3950c814b04977735368112c37af\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\b0972071a30160448ccdb7b1c8372af4\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
 MERGED from [de.hdodenhof:circleimageview:3.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\b0972071a30160448ccdb7b1c8372af4\circleimageview-3.0.1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\6e75d41292ce7017856f2be7698f6ea3\jetified-styleabletoast-2.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\6e75d41292ce7017856f2be7698f6ea3\jetified-styleabletoast-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ec00e7877c342453f0fca5be79a93989\jetified-styleabletoast-2.0.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.muddzdev:styleabletoast:2.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\ec00e7877c342453f0fca5be79a93989\jetified-styleabletoast-2.0.1\AndroidManifest.xml:7:5-9:41
 MERGED from [com.wrapp.floatlabelededittext:library:0.0.6] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2d6ed1a3eeb3eb3f3ac983d5aff19db2\library-0.0.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.wrapp.floatlabelededittext:library:0.0.6] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\2d6ed1a3eeb3eb3f3ac983d5aff19db2\library-0.0.6\AndroidManifest.xml:7:5-9:41
 MERGED from [com.amulyakhare:com.amulyakhare.textdrawable:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\9d25aa7049e7f5e303a113e60638567d\com.amulyakhare.textdrawable-1.0.1\AndroidManifest.xml:8:5-10:41
@@ -296,33 +298,33 @@ INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
 		ADDED from E:\Development\Baby\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Development\Baby\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.EXPAND_STATUS_BAR
-ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:5-76
+ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:5-76
 	android:name
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:22-73
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:22-73
 receiver#com.allyants.notifyme.BootNotifyMe
-ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:14:9-17:39
+ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:14:9-17:39
 	android:enabled
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:16:13-35
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:16:13-35
 	android:exported
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:17:13-36
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:17:13-36
 	android:name
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:15:13-62
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:15:13-62
 receiver#com.allyants.notifyme.ActionReceiver
-ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:18:9-21:39
+ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:18:9-21:39
 	android:enabled
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:20:13-35
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:20:13-35
 	android:exported
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:21:13-36
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:19:13-64
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:19:13-64
 receiver#com.allyants.notifyme.DeletePendingIntent
-ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:22:9-25:39
+ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:22:9-25:39
 	android:enabled
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:24:13-35
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:24:13-35
 	android:exported
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:25:13-36
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\101c1d47d95cca940aeda16331026dc0\jetified-NotifyMe-1.0.1\AndroidManifest.xml:23:13-69
+		ADDED from [com.github.jakebonk:NotifyMe:1.0.1] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\a86b1024b569df613a45c70f1e828df5\jetified-NotifyMe-1.0.1\AndroidManifest.xml:23:13-69
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Paco\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
 	android:authorities

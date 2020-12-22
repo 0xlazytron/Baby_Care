@@ -39,7 +39,8 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name="com.paco.mother.Reciever.ReminderReciever" />
+        <receiver android:name="com.paco.mother.Reciever.ReminderReciever" >
+        </receiver>
 
         <meta-data
             android:name="preloaded_fonts"

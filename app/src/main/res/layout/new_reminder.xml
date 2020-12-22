@@ -8,6 +8,7 @@
     android:background="@drawable/gredientbg"
     android:layout_height="match_parent"
     tools:context=".NewReminder">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="vertical"
@@ -42,14 +43,16 @@
             android:layout_marginRight="50dp"
             android:layout_marginTop="10dp"
             android:backgroundTint="@color/white"
+            android:drawableLeft="@drawable/ic_edit"
             android:inputType="text"
+            android:textSize="18dp"
             android:textColorHint="@color/white"
             android:fontFamily="@font/poppins"
-            android:hint="Reminder Notes"
+            android:hint="  Reminder Notes"
             android:padding="7dp"
             android:textColor="@color/white">
         </EditText>
-        <EditText
+        <TextView
             android:id="@+id/rem_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -57,70 +60,66 @@
             android:layout_marginRight="50dp"
             android:layout_marginTop="10dp"
            android:backgroundTint="@color/white"
-            android:inputType="text"
+            android:drawableLeft="@drawable/ic_stopwatch"
             android:textColorHint="@color/white"
             android:fontFamily="@font/poppins"
-            android:hint="Reminder Time"
+            android:hint="  Reminder Time"
+            android:textSize="18dp"
             android:padding="7dp"
             android:textColor="@color/white">
-        </EditText>
-        <EditText
+        </TextView>
+        <TextView
             android:id="@+id/rem_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
             android:layout_marginTop="10dp"
-           android:backgroundTint="@color/white"
-            android:inputType="text"
+            android:drawableLeft="@drawable/ic_calendar"
+            android:backgroundTint="@color/white"
+            android:textSize="18dp"
             android:textColorHint="@color/white"
             android:fontFamily="@font/poppins"
-            android:hint="Reminder Date"
+            android:hint="  Reminder Date"
             android:padding="7dp"
             android:textColor="@color/white">
-        </EditText>
-<!--        <Spinner-->
-<!--            android:id="@+id/rem_for_baby"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="40dp"-->
-<!--            android:layout_marginLeft="50dp"-->
-<!--            android:layout_marginTop="10dp"-->
-<!--            android:layout_marginRight="50dp"-->
-<!--            android:background="#FFFFFF"-->
-<!--            android:dropDownSelector="@color/dark"-->
-<!--            android:fontFamily="@font/poppins"-->
-<!--            android:inputType="text"-->
-<!--            android:padding="7dp"-->
-<!--            android:shadowColor="@color/black"-->
-<!--            android:textColor="@color/dark"-->
-<!--            android:textColorHint="@color/dark"></Spinner>-->
-<!--        <Spinner-->
-<!--            android:id="@+id/rem_type"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="40dp"-->
-<!--            android:layout_marginLeft="50dp"-->
-<!--            android:layout_marginTop="10dp"-->
-<!--            android:layout_marginRight="50dp"-->
-<!--            android:background="#FFFFFF"-->
-<!--            android:fontFamily="@font/poppins"-->
-<!--            android:inputType="text"-->
-<!--            android:padding="7dp"-->
-<!--            android:popupBackground="@color/liteorange"-->
-
-<!--            android:textColor="@color/dark"-->
-<!--            android:textColorHint="@color/dark"></Spinner>-->
-        <TimePicker
-            android:id="@+id/timeNow"
-            android:layout_width="200dp"
-            android:layout_gravity="center"
-            android:layout_marginRight="40dp"
+        </TextView>
+        <Spinner
+            android:id="@+id/rem_baby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="40dp"
-            android:padding="5dp"
-            android:timePickerMode="spinner"
-            android:layout_height="340dp">
+            style="@style/spinner_style"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/style_spinner"
+            android:dropDownSelector="@color/dark"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            android:padding="7dp"
+            android:textColor="#FFFFFF"
+            android:popupBackground="@color/dark"
+            android:textColorHint="#FFFFFF">
 
-        </TimePicker>
+        </Spinner>
+        <Spinner
+            android:id="@+id/rem_type"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:fontFamily="@font/poppins"
+            android:inputType="text"
+            style="@style/spinner_style"
+            android:background="@drawable/style_spinner"
+            android:padding="7dp"
+            android:popupBackground="@color/dark"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF">
+
+        </Spinner>
+
         <Button
             android:id="@+id/addRem"
             android:layout_width="match_parent"

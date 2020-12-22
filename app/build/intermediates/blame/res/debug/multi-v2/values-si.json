@@ -4,6 +4,23 @@
             "outputFile": "E:\\Development\\Baby\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-si\\values-si.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\3354527b121d837c9807a891ff82bdc6\\jetified-navigation-ui-2.0.0\\res\\values-si\\values-si.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,166",
+                        "endColumns": "110,116",
+                        "endOffsets": "161,278"
+                    },
+                    "to": {
+                        "startLines": "29,30",
+                        "startColumns": "4,4",
+                        "startOffsets": "2821,2932",
+                        "endColumns": "110,116",
+                        "endOffsets": "2927,3044"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\values-si\\values-si.xml",
                     "from": {
                         "startLines": "2",
@@ -18,23 +35,6 @@
                         "startOffsets": "3131",
                         "endColumns": "100",
                         "endOffsets": "3227"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c292180846fe538ac04adec169e4a10c\\jetified-navigation-ui-2.0.0\\res\\values-si\\values-si.xml",
-                    "from": {
-                        "startLines": "2,3",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,166",
-                        "endColumns": "110,116",
-                        "endOffsets": "161,278"
-                    },
-                    "to": {
-                        "startLines": "29,30",
-                        "startColumns": "4,4",
-                        "startOffsets": "2821,2932",
-                        "endColumns": "110,116",
-                        "endOffsets": "2927,3044"
                     }
                 },
                 {

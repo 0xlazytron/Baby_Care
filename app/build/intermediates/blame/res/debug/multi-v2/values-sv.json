@@ -21,23 +21,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\ba89ae4fcf6e2c1abf6bc2023c9a878c\\jetified-materialdatetimepicker-1.2.1\\res\\values-sv\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "263,366,486,565,677,801,916,1009,1097,1188,1271",
-                        "endColumns": "102,119,78,111,123,114,92,87,90,82,100",
-                        "endOffsets": "361,481,560,672,796,911,1004,1092,1183,1266,1367"
-                    },
-                    "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2784,2887,3007,3086,3198,3322,3437,3530,3618,3709,3792",
-                        "endColumns": "102,119,78,111,123,114,92,87,90,82,100",
-                        "endOffsets": "2882,3002,3081,3193,3317,3432,3525,3613,3704,3787,3888"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2",
@@ -55,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c292180846fe538ac04adec169e4a10c\\jetified-navigation-ui-2.0.0\\res\\values-sv\\values-sv.xml",
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\3354527b121d837c9807a891ff82bdc6\\jetified-navigation-ui-2.0.0\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -69,6 +52,23 @@
                         "startOffsets": "3893,4002",
                         "endColumns": "108,118",
                         "endOffsets": "3997,4116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\613df6a2cabef3a0ada7ee818752b921\\jetified-materialdatetimepicker-1.2.1\\res\\values-sv\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "263,366,486,565,677,801,916,1009,1097,1188,1271",
+                        "endColumns": "102,119,78,111,123,114,92,87,90,82,100",
+                        "endOffsets": "361,481,560,672,796,911,1004,1092,1183,1266,1367"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2784,2887,3007,3086,3198,3322,3437,3530,3618,3709,3792",
+                        "endColumns": "102,119,78,111,123,114,92,87,90,82,100",
+                        "endOffsets": "2882,3002,3081,3193,3317,3432,3525,3613,3704,3787,3888"
                     }
                 }
             ]

@@ -2,22 +2,30 @@ package com.paco.mother.model;
 
 public class reminderModel {
     int rem_id, baby_id;
-    String rem_name,rem_type,rem_time, rem_date;
+    String rem_name,rem_type,rem_time, rem_date,baby_name;
 
-    public reminderModel(int rem_id, int baby_id, String rem_name, String rem_type, String rem_time, String rem_date) {
+
+    public reminderModel(int rem_id, String rem_name, String rem_type, String rem_time, String rem_date) {
         this.rem_id = rem_id;
-        this.baby_id = baby_id;
         this.rem_name = rem_name;
         this.rem_type = rem_type;
         this.rem_time = rem_time;
         this.rem_date = rem_date;
     }
 
-    public reminderModel(int rem_id, String rem_name, String rem_type, String rem_time) {
-        this.rem_id = rem_id;
+    public reminderModel(String rem_name, String rem_type, String rem_time, String rem_date, String baby_name) {
         this.rem_name = rem_name;
         this.rem_type = rem_type;
         this.rem_time = rem_time;
+        this.rem_date = rem_date;
+        this.baby_name = baby_name;
+    }
+    public String getBaby_name() {
+        return baby_name;
+    }
+
+    public void setBaby_name(String baby_name) {
+        this.baby_name = baby_name;
     }
 
     public int getRem_id() {

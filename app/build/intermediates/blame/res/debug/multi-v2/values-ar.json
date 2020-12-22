@@ -4,24 +4,24 @@
             "outputFile": "E:\\Development\\Baby\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ar\\values-ar.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\613df6a2cabef3a0ada7ee818752b921\\jetified-materialdatetimepicker-1.2.1\\res\\values-ar\\values.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "263,376,487,564,680,799,917,1010,1100,1192,1279",
+                        "endColumns": "112,110,76,115,118,117,92,89,91,86,100",
+                        "endOffsets": "371,482,559,675,794,912,1005,1095,1187,1274,1375"
                     },
                     "to": {
-                        "startLines": "43",
-                        "startColumns": "4",
-                        "startOffsets": "4198",
-                        "endColumns": "100",
-                        "endOffsets": "4294"
+                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2779,2892,3003,3080,3196,3315,3433,3526,3616,3708,3795",
+                        "endColumns": "112,110,76,115,118,117,92,89,91,86,100",
+                        "endOffsets": "2887,2998,3075,3191,3310,3428,3521,3611,3703,3790,3891"
                     }
                 },
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c292180846fe538ac04adec169e4a10c\\jetified-navigation-ui-2.0.0\\res\\values-ar\\values-ar.xml",
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\3354527b121d837c9807a891ff82bdc6\\jetified-navigation-ui-2.0.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\ba89ae4fcf6e2c1abf6bc2023c9a878c\\jetified-materialdatetimepicker-1.2.1\\res\\values-ar\\values.xml",
+                    "source": "C:\\Users\\Paco\\.gradle\\caches\\transforms-2\\files-2.1\\c0a39027978b83a483a047f5c31d0c4e\\core-1.0.1\\res\\values-ar\\values-ar.xml",
                     "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "263,376,487,564,680,799,917,1010,1100,1192,1279",
-                        "endColumns": "112,110,76,115,118,117,92,89,91,86,100",
-                        "endOffsets": "371,482,559,675,794,912,1005,1095,1187,1274,1375"
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "29,30,31,32,33,34,35,36,37,38,39",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "2779,2892,3003,3080,3196,3315,3433,3526,3616,3708,3795",
-                        "endColumns": "112,110,76,115,118,117,92,89,91,86,100",
-                        "endOffsets": "2887,2998,3075,3191,3310,3428,3521,3611,3703,3790,3891"
+                        "startLines": "43",
+                        "startColumns": "4",
+                        "startOffsets": "4198",
+                        "endColumns": "100",
+                        "endOffsets": "4294"
                     }
                 },
                 {

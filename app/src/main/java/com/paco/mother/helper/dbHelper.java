@@ -8,23 +8,19 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
-import android.util.SparseIntArray;
 import android.widget.Toast;
-
-import androidx.annotation.Nullable;
 
 import com.muddzdev.styleabletoastlibrary.StyleableToast;
 import com.paco.mother.R;
-import com.paco.mother.addBaby;
 import com.paco.mother.model.babyModel;
+import com.paco.mother.model.reminderModel;
 
 import java.io.ByteArrayOutputStream;
-import java.sql.Blob;
 import java.util.ArrayList;
-import java.util.List;
- public class dbHelper extends SQLiteOpenHelper {
 
-  private static final int DB_VERSION = 5;
+public class dbHelper extends SQLiteOpenHelper {
+
+  private static final int DB_VERSION = 7;
   private static final String DB_NAME= "mother.db";
   //TABLE(S)
   private static final String TBL_NAME= "baby";
@@ -41,7 +37,7 @@ import java.util.List;
   private byte[] imageBytes;
   Context context;
      private static String CREATE = "CREATE TABLE baby (id INTEGER PRIMARY KEY AUTOINCREMENT,name TEXT NOT NULL,height TEXT NOT NULL,weight TEXT NOT NULL,birthday TEXT NOT NULL,gender TEXT NOT NULL,pic BLOB)";
-     private static String REMINDER = "CREATE TABLE reminder (id INTEGER PRIMARY KEY AUTOINCREMENT,rem_name TEXT NOT NULL,rem_time TEXT NOT NULL,rem_type TEXT NOT NULL,rem_date TEXT NOT NULL,baby_id INTEGER)";
+     private static String REMINDER = "CREATE TABLE reminder (id INTEGER PRIMARY KEY AUTOINCREMENT,rem_name TEXT NOT NULL,rem_time TEXT NOT NULL,rem_type TEXT NOT NULL,rem_date TEXT NOT NULL,baby_name TEXT NOT NULL)";
      private static String ANALYTICS = "CREATE TABLE analytic (id INTEGER PRIMARY KEY AUTOINCREMENT,weight TEXT NOT NULL,height TEXT NOT NULL,date TEXT NOT NULL,baby_id INTEGER)";
   //CONSTRUCTOR
   public dbHelper(Context context){
@@ -55,8 +51,6 @@ import java.util.List;
         db.execSQL(REMINDER);
         db.execSQL(ANALYTICS);
         StyleableToast.makeText(context,"200 ok", R.style.succes).show();
-//        Toast.makeText(context, " => "+REMINDER, Toast.LENGTH_LONG).show();
-//        Toast.makeText(context, " => "+ANALYTICS, Toast.LENGTH_LONG).show();
     }catch(Exception e){
         StyleableToast.makeText(context,"Error Creating Databse Table"+e.getMessage(), R.style.error).show();
     }
@@ -99,6 +93,31 @@ import java.util.List;
         }
 
     }
+     public void addReminder(reminderModel rem){
+         try{
+             DB = this.getWritableDatabase();
+             ContentValues values = new ContentValues();
+             values.put("id",rem.getRem_id());
+             values.put("rem_name",rem.getRem_name());
+             values.put("rem_time", rem.getRem_time());
+             values.put("rem_date", rem.getRem_date());
+             values.put("rem_type", rem.getRem_type());
+             values.put("baby_name", rem.getBaby_name());
+             Toast.makeText(context, "Reminder Id  :"+rem.getRem_id() +"\n Rem name :"+rem.getRem_name()+"\n Reminder Time :"+rem.getRem_time()
+                     +"\n Reminde Date :"+rem.getRem_date()+"\n Rem Type:"+rem.getRem_type()+"\n Baby Id:"+rem.getBaby_id(), Toast.LENGTH_LONG).show();
+             long checkQuery =  DB.insert("reminder",null, values);
+
+             if(checkQuery!=-1){
+                 StyleableToast.makeText(context,"REMINDER ADDED", R.style.succes).show();
+                 DB.close();
+             }else{
+                 StyleableToast.makeText(context,"FAILED ADDING REMINDER", R.style.warning).show();
+             }
+         }catch(Exception e){
+             StyleableToast.makeText(context,"FAILED ADDING Reminder"+e.getMessage(), R.style.error).show();
+         }
+
+     }
     public ArrayList<babyModel>getAllBabies(){
          try{
              DB = this.getReadableDatabase();
@@ -131,11 +150,75 @@ import java.util.List;
              return  null;
          }
      }
+    public ArrayList<reminderModel>getAllrems(){
+        try{
+            DB = this.getReadableDatabase();
+            ArrayList<reminderModel> remList = new ArrayList<>();
+            Cursor cursor = DB.rawQuery("select * from reminder",null);
+            if(cursor.getCount()>0){
+                while(cursor.moveToNext()){
+                    int id = cursor.getInt(0);
+                    String remName = cursor.getString(1);
+                    String remTime = cursor.getString(2);
+                    String remType = cursor.getString(3);
+                    String remDate = cursor.getString(4);
+                    remList.add(new reminderModel(id,remName,remTime,remType,remDate));
+
+                }
+                cursor.close();
+                return remList;
+
+            }else{
+                StyleableToast.makeText(context,"NO REMINDERS FOUND!", R.style.error).show();
+                return null;
+            }
+
+        }catch(Exception e){
+            StyleableToast.makeText(context,"No COLUMN FOUND!\n"+e.getMessage(), R.style.error).show();
+            return  null;
+        }
+    }
+     //getting baby names for spinner
+     public ArrayList<babyModel>getBabyNames(){
+         try{
+             DB = this.getReadableDatabase();
+             ArrayList<babyModel> nameList = new ArrayList<>();
+             Cursor cursor = DB.rawQuery("select * from baby",null);
+             if(cursor.getCount()>0){
+                 while(cursor.moveToNext()){
+                     int id = cursor.getInt(0);
+                     String babyName = cursor.getString(1);
+                     nameList.add(new babyModel(id,babyName));
+
+                 }
+                 cursor.close();
+                 return nameList;
+
+             }else{
+                 StyleableToast.makeText(context,"NO BABIES FOUND!", R.style.error).show();
+                 return null;
+             }
+
+         }catch(Exception e){
+             StyleableToast.makeText(context,"No COLUMN FOUND!\n"+e.getMessage(), R.style.error).show();
+             return  null;
+         }
+     }
     public int deleteBaby(Integer id) {
         DB = this.getWritableDatabase();
       return DB.delete("baby ", "id=?", new String[]{String.valueOf(id)});
 
      }
+//     public int BabyId(String name2) {
+//
+//         DB = this.getWritableDatabase();
+////         String query = "SELECT id FROM baby WHERE name = "+name2;
+//         String query = "SELECT  id FROM baby WHERE name ='+name2'";
+//         Cursor c = DB.rawQuery(query,null);
+//             while (c.moveToNext()) {
+//                 baby_id = c.getColumnIndex("id");
+//             }
+//         return baby_id; }
      public void updateBaby(babyModel boy, String id){
       try{
           DB = this.getWritableDatabase();
@@ -161,4 +244,8 @@ import java.util.List;
       }
 
      }
- }
+    public int deleteRem(int rem_id) {
+        DB = this.getWritableDatabase();
+        return DB.delete("reminder ", "id=?", new String[]{String.valueOf(rem_id)});
+    }
+}
